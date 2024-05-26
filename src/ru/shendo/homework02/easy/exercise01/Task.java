@@ -22,8 +22,7 @@ public class Task {
 
         for (int arrayElement : array) {
             if (arrayElement == number) {
-                elementIsInArray = true;
-                break;
+                return true;
             }
         }
 
